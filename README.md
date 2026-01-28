@@ -20,12 +20,6 @@ Write a paragraph that says:
 
 Your name must be colored blue using `<span>`.
 
-Example:
-
-``` html
-<p>Hello, my name is <span style="color: blue;">John</span>.</p>
-```
-
 ------------------------------------------------------------------------
 
 ## 2️⃣ Important Message
@@ -65,14 +59,6 @@ Create 3 sentences:
 -   Underlined word using `<u>`
 -   Deleted word using `<del>`
 -   Inserted word using `<ins>`
-
-Example:
-
-``` html
-<p>This is <u>underlined</u> text.</p>
-<p>This is <del>wrong</del> text.</p>
-<p>This is <ins>correct</ins> text.</p>
-```
 
 ------------------------------------------------------------------------
 
