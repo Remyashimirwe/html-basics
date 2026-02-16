@@ -133,3 +133,66 @@ Add a new section called **My Goals** and include:
 ------------------------------------------------------------------------
 
 Happy Coding! 🚀
+## register.html — Student Registration Form
+Requirements:
+
+Use:
+```html
+<form>, <label>, <input>, <select>, <textarea>, <fieldset>, <legend>, <button>
+```
+Fields:
+
+Full Name (text)
+
+Email (email)
+
+Password
+
+Date of Birth (date)
+
+Gender (radio buttons)
+
+Course (dropdown)
+
+Hobbies (checkboxes)
+
+Upload Photo (file)
+
+Short Bio (textarea)
+
+Submit & Reset buttons
+
+Tasks:
+
+Group related inputs using 
+```
+<fieldset>
+```
+
+Make required fields mandatory.
+
+Use placeholders and default values.
+
+# courses.html — Courses Table
+Requirements:
+
+Use:
+```html
+<table>, <thead>, <tbody>, <tfoot>, <tr>, <th>, <td>, <caption>
+```
+Table Data:
+
+Columns:
+
+Course Code
+
+Course Name
+
+Department
+
+Credit Hours
+
+Instructor
+
+Rows:
+At least 6 courses.

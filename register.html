@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+</head>
+<body>
+    <form method="post">
+        <fieldset>
+            <legend>Personal information</legend>
+            <label for="fullname">Fullname: </label><br>
+            <input type="text" placeholder="Kamanzi" id="fullname"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" placeholder="example@gmail.com" id="email"><br>
+            <label for="pass">Password: </label><br>
+            <input type="password" placeholder="******" id="pass"><br>
+            <label for="date">Date of birth: </label><br>
+            <input type="date"><br>
+            <label>Gender: </label><br>
+            <input type="radio" id="male" name="Male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="female" required>
+            <label for="female">Female</label>
+        </fieldset>
+        <fieldset>
+            <legend>Course details</legend>
+            <label for="Courses">Select Course:</label><br>
+            <select id="Courses">
+                <option value="python">python</option>
+                <option value="html">html</option>
+                <option value="css">css</option>
+                <option value="Javascript">Javascript</option>
+            </select><br>
+            <label>hobbies: </label><br>
+            <label for="hobby">football</label>
+            <input type="checkbox" id="hobby" name="hobby" value="football">
+            <label for="code">Coding</label>
+            <input type="checkbox" id="code" name="hobby" value="basketball">
+            <label for="mod">Movies</label>
+            <input type="checkbox" id="mod" name="hobby" value="Movies"><br>
+            <label for="upload">Upload file: </label>
+            <input type="file" id="upload">
+        </fieldset>
+        <fieldset>
+            <legend>Additional information</legend>
+            <label for="bio">Short bio: </label><br>
+            <textarea id="bio"></textarea>
+        </fieldset>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>
