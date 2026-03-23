@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        background-color: black;
+        color: white;
+      }
+      #left {
+        background-color: aqua;
+        padding: 20px;
+        float: inline-start;
+        width: 30%;
+      }
+      #middle {
+        background-color: gray;
+        padding: 20px;
+        float: left;
+        width: 40%;
+      }
+      #right {
+        background-color: blue;
+        padding: 20px;
+        float: right;
+        width: 30%;
+      }
+      @media screen and (max-width: 2000px) {
+        #left,
+        #middle,
+        #right {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ratione
+      cumque soluta<br> modi esse dolor ut non maiores provident voluptas, impedit
+      iure perspiciatis doloremque et animi quasi aut nihil numquam!
+    </p>
+    <hr>
+    <pre>
+    <code>
+        x= 5;
+        y = 7;
+    </code>
+    </pre>
+    <hr>
+    <p><samp>file is not found</samp> press <kbd>enter</kbd> to continue</p>
+    <p>if you want to save <kbd>ctrl + s</kbd></p>
+    <div id="left">
+      <p>Left menu</p>
+    </div>
+    <div id="middle">
+      <p>middle</p>
+    </div>
+    <div id="right">
+      <p>end</p>
+    </div>
+  </body>
+</html>

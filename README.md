@@ -196,3 +196,4 @@ Instructor
 
 Rows:
 At least 6 courses.
+![alt text](image.png)
