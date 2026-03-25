@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang=>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Task of the day</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .Navbar{
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        h2{
+            margin: 0;
+            font-size: 24px;
+            font-weight: bold;
+            color: white;
+        }
+        ul{
+            font-size: 20px;   
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 10px;
+        }
+        ul li{
+            padding: 1px;
+            cursor: pointer;
+        }
+        ul li:hover{
+            border-bottom: 2px solid white;
+        }
+        .container{
+            padding: 20px;
+            display: flex;
+            height: 100vh;
+            gap: 20px;
+        }
+        .card{
+            background-color: gray;
+            padding: 20px;
+            border-radius: 8px;
+            height: 40%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .card h1{
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .card p{
+            font-size: 16px;
+            color: white;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+<nav>
+    <nav class="Navbar">
+        <h2>Future Focus</h2>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+</nav>
+<div class="container">
+    <div class="card">
+        <img src="/assets/profile.jpg" alt="profile" style="width: 100px; height: 100px;">
+        <h1>Task of the day</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, quod.</p>
+    </div>
+    <div class="card">
+        <img src="/assets/profile.jpg" alt="profile" style="width: 100px; height: 100px;">
+        <h1>Task of the day</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, quod.</p>
+    </div>
+    <div class="card">
+        <img src="/assets/profile.jpg" alt="profile" style="width: 100px; height: 100px;">
+        <h1>Task of the day</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, quod.</p>
+    </div>
+</div>
+</body>
+</html>
